@@ -1,3 +1,23 @@
+UCASthesis：https://github.com/xiaoyao9933/UCASthesis
+本模板在UCASthesis基础上做了少量修改,适用于中国科学院武汉物理与数学研究所学位论文
+
+修改说明：
+ucasthesis.cfg
+%中国科学院武汉物理与数学研究所论文原创性声明和使用授权说明
+
+ucasthesis.cls
+%格式修改：中英文封面，原创性声明和使用授权说明，致谢，摘要
+
+cover.tex
+%单位为中国科学院武汉物理与数学研究所
+
+abs.tex
+%增加单独一个摘要文件
+
+main.tex
+%将致谢放在摘要之前
+
+
 FAQ
 ===
 [使用前必读的问题](https://github.com/xiaoyao9933/UCASthesis/wiki)
@@ -68,51 +88,6 @@ version 2004/10/01 or later.
 3. 建议通过git pull方式更新模板，如果你之前已经完成论文的一部分写作，则可以通过下载新版模板包里的ucasthesis.cls、ucasthesis.cfg以及ucasthesis.dtx文件，替换至你的论文目录中完成模板更新；也可以通过下载新版模板后，拷贝入含有写作内容的main.tex,data/figures/ref目录进行更新。
 
 
-Makefile Howto (by xiaoyao9933 & edyfox & littleleo)
-====================================================
-1. 获取帮助文档
 
-   make doc   得到 ucasthesis.pdf，帮助文档，里面有详细的说明。
-
-2. 生成示例文档
-
-   make thesis
-
-3. 生成书脊示例   
-
-   make spine
-
-附录： Makefile 命令详解：
-
-Makefile：
-
-    使用方法：
-
-        make [{all|thesis|spine|doc|clean|distclean}] \
-            [METHOD={xelatex|pdflatex|dvipdfmx}] \
-            [TEXI2DVI=<tex2dvi>]
-
-    参数说明：
-
-        make all       等于 make thesis && make spine && make doc；
-        make cls       生成模板文件，相当于 make -f thesis.mak cls；
-        make thesis    生成论文，相当于 make -f thesis.mak；
-        make spine     生成书脊，相当于 make -f spine.mak；
-        make doc       生成使用说明书，相当于 make -f doc.mak；
-        make clean     表示清除除了 pdf 外的所有中间文件和目标文件；
-        make distclean 表示清除包括 pdf 在内的所有中间文件和目标文件。
-
-        METHOD 参数用来指定生成 pdf 的方式，
-
-        METHOD=xelatex  表示使用 xelatex 引擎编译生成 pdf；
-        METHOD=pdflatex 表示使用 pdflatex 引擎编译生成 pdf，请确保有相应的cjk字体配置；
-        METHOD=dvipdfmx 表示使用 texi2dvi -> dvipdfmx 的方式生成 pdf，请确保有相应的cjk字体配置；
-
-        如果缺省，则采用 xelatex 方式，同时我也建议只使用该方式编译。
-
-        TEXI2DVI 表示 texi2dvi 实用工具的文件名，该工具的作用是自动重复运行
-        latex 若干遍，直至所有交叉引用都正确为止。在有的发行版中该工具的文件名
-        不叫 texi2dvi，譬如 CTeX 下的这个工具就叫 texify。遇到这种情况你可以在
-        命令行通过 TEXI2DVI=texify 命令指定使用其它的 texi2dvi 工具。
 
 
