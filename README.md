@@ -36,7 +36,7 @@ UCASThesis 是中国科学院大学学位论文 LaTeX 模板，支持硕士、�
 使用须知
 ========
 
-1. 本模板强烈建议使用texlive 2014或以上版本、MikTex2.9或以上版本编译，***请不要使用CTEX***。
+1. 本模板强烈建议使用texlive 2014或以上版本、MikTex2.9或以上版本编译，***使用CTEX请更新宏包***。
   
   特别注意的是， CTEX 可能由于内置宏包老旧，暂时无法支持 UCASThesis 模板，随之可能会产生"ifxetex","zhnumber.sty not found"等问题。
 
