@@ -1,6 +1,7 @@
 # UCASthesis-WIPM
 a LaTeX template for UCAS-WIPM, 中科院学位论文模板
-本模板在UCASthesis(https://github.com/xiaoyao9933/UCASthesis)基础上做了少量修改,适用于中国科学院武汉物理与数学研究所学位论文
+本模板在UCASthesis:https://github.com/xiaoyao9933/UCASthesis
+基础上做了少量修改,适用于中国科学院武汉物理与数学研究所学位论文
 
 修改说明：
 ucasthesis.cfg
