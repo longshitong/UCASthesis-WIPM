@@ -33,20 +33,6 @@ UCASThesis 是中国科学院大学学位论文 LaTeX 模板，支持硕士、�
 本模板目前已经针对中国科学院计算技术研究所的论文模板进行调整，但由于中科院各院所的模板规范并非完全一致，
 其余院所的同学可能需要进行一些必要的修改。
 
-版权须知
-========
-Copyright (C) 2005-2013 by Xue Ruini <xueruini@gmail.com>
-Copyright (C) 2013-2016 derived by Chaolu <wuchaolu@gmail.com>
-
-This file may be distributed and/or modified under the
-conditions of the LaTeX Project Public License, either version 1.3a
-of this license or (at your option) any later version.
-The latest version of this license is in:
-
-http://www.latex-project.org/lppl.txt
-
-and version 1.3a or later is part of all distributions of LaTeX
-version 2004/10/01 or later.
 
 使用须知
 ========
@@ -79,15 +65,4 @@ version 2004/10/01 or later.
      data/      论文具体内容
      ref/       参考文献目录
      figures/   图片目录
-   
-
-如何获取/升级
-=============
-1. 如需以git方式获取，git clone https://github.com/xiaoyao9933/UCASthesis
-2. 如需直接获取压缩包文件，请下载 https://github.com/xiaoyao9933/UCASthesis/archive/master.zip
-3. 建议通过git pull方式更新模板，如果你之前已经完成论文的一部分写作，则可以通过下载新版模板包里的ucasthesis.cls、ucasthesis.cfg以及ucasthesis.dtx文件，替换至你的论文目录中完成模板更新；也可以通过下载新版模板后，拷贝入含有写作内容的main.tex,data/figures/ref目录进行更新。
-
-
-
-
-
+ 
