@@ -16,7 +16,6 @@ ucasthesis.cls
     
     原创性声明和使用授权说明排版调整
     
-    
     所有章节标题字体粗体
     
 cover.tex
