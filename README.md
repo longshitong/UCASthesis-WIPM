@@ -5,21 +5,26 @@ UCASthesis：https://github.com/xiaoyao9933/UCASthesis
 修改说明：
 
 ucasthesis.cfg
+
 %改为中国科学院武汉物理与数学研究所论文原创性声明和使用授权说明
 
 ucasthesis.cls
+
 %格式修改：
     中英文封面字体粗体，排版调整
     原创性声明和使用授权说明排版调整
     所有章节标题字体粗体
     
 cover.tex
+
 %培养单位为中国科学院武汉物理与数学研究所，摘要移出为单独一章
 
 abs.tex
+
 %增加单独一个摘要文件
 
 main.tex
+
 %将致谢放在摘要之前
 
 
