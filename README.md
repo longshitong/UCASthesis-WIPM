@@ -2,7 +2,7 @@ UCASthesis：https://github.com/xiaoyao9933/UCASthesis
 
 本模板在UCASthesis基础上做了少量修改,适用于中国科学院武汉物理与数学研究所学位论文，其他研究所需要做适当修改。
 
-修改说明：
+修改说明（2017年3月）：
 
 ucasthesis.cfg
 
